@@ -96,8 +96,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+91 6356448748',
-                path: 'tel:+91 6356448748',
+                title: '+9148748',
+                path: 'tel:+9148748',
               },
               {
                 title: 'tandelhitanshi@gmail.com',

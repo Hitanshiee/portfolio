@@ -198,7 +198,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    L.IN
+                    linkedin
                   </a>
                 </li>
               </ul>
