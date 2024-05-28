@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import AboutImg from '../assets/images/about-sec-img.jfif';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -16,6 +16,7 @@ const AboutSectionStyles = styled.div`
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
+    width: 100%;
   }
   .section-title {
     text-align: left;
@@ -44,10 +45,7 @@ const AboutSectionStyles = styled.div`
       flex-direction: column;
       text-align: center;
     }
-    .aboutSection__left,
-    .aboutSection__right {
-      width: 100%;
-    }
+  
     .aboutSection__right {
       margin-top: 3rem;
     }
@@ -80,8 +78,8 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Chittagong,
-            Bangladesh. I create professional websites. I love art and always
+            I am a website designer and developer from vadodara,
+            gujarat. I create professional websites. I love art and always
             try to show unique views to the audience through my design.
           </PText>
           <div className="aboutSection__buttons">

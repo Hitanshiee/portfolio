@@ -57,9 +57,9 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Hitanshi Tandel</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
+            A  web designer and developer from vadodara, gujarat.
             I always make websites that have unique designs and also has a good
             performance rate.
           </PText>
@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 6356448748',
+                path: 'tel:+91 6356448748',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'tandelhitanshi@gmail.com',
+                path: 'mailto:tandelhitanshi@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'vadodara, gujarat',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -115,12 +115,12 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'Linkedin',
+                path: 'http://linkedin.com',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'X',
+                path: 'http://x.com',
               },
               {
                 title: 'Instagram',
@@ -128,16 +128,6 @@ export default function Footer() {
               },
             ]}
           />
-        </div>
-      </div>
-      <div className="copyright">
-        <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
         </div>
       </div>
     </FooterStyle>

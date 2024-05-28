@@ -1,27 +1,21 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
+    name: 'Krushika Tandel',
     title: 'CEO',
-    org: 'WEB CIFAR',
+    org: 'TechPulse',
     desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Hitanshi is a person of commitment. she is really good at what she is doing. I really like his work. Especially the unique point of view of designing.',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
+    name: 'sophia price',
     title: 'Co-founder',
-    org: 'Kreetive',
+    org: 'MindSparc',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      'Really amazing communication skills. Always understand what I am trying to achieve. Also, her work is really amazing. Do really high-quality work.',
   },
-  {
-    id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
-    desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
-  },
+  
+    
 ];
 export default testimonials;

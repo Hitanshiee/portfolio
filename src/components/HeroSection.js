@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/hero.jpeg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -39,7 +39,7 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: 1rem;
   }
   .hero__social,
   .hero__scrollDown {
@@ -154,14 +154,14 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Hitanshi Tandel</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
+              I am working as a web designer and developer for 2
               years. I love to design and make new web experiences for the
               people.
             </PText>
@@ -176,25 +176,16 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://X.com/hitanshiee"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    X
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
+                    href="http://isntagram.com/hitanshiee"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,11 +194,11 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="http://linkedin.com/hitanshi_tandel"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    L.IN
                   </a>
                 </li>
               </ul>
